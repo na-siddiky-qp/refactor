@@ -61,7 +61,8 @@ class Order {
 
   constructor(public customer: Customer) {}
 
-  //  Issue: Method Naming (calculateTotal and applyDiscount were vague)
+  //  Issue: Bloaters (Long Method & Redundant Code)
+  //  Old Code: calculateTotal() & applyDiscount() mixed calculations
   //  Solution: Decomposed logic into calculateTotalPrice() and calculateDiscountedPrice()
 
   addItem(product: Product): void {
