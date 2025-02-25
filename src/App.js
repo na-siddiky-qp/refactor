@@ -1,5 +1,5 @@
 import './App.css';
-import OrderManagementSystem from './OrderManagementSystem.tsx';
+import OrderManagementSystem from './components/OrderManagementSystem.tsx';
 
 function App() {
   return (
